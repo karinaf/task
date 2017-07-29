@@ -8,7 +8,7 @@
     <artifactId>task</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <path.chrome>\task\chromedriver.exe</path.chrome>
+        <path.chrome>chromedriver.exe</path.chrome>
         <runner.browser>chrome</runner.browser>
     </properties>
     <build>
@@ -24,6 +24,11 @@
                 </configuration>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>task/ resources</directory>
+            </resource>
+        </resources>
     </build>
     <dependencies>
         <dependency>
