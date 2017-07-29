@@ -8,7 +8,7 @@
     <artifactId>task</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <path.chrome>C:\Users\Karina\IdeaProjects\task\chromedriver.exe</path.chrome>
+        <path.chrome>\task\chromedriver.exe</path.chrome>
         <runner.browser>chrome</runner.browser>
     </properties>
     <build>
